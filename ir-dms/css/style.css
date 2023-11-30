@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ir-border-color: #d1d8dd;
+    --ir-primary-color: #5292f7;
+    --ir-white-bg: #fff;
+    --ir-light-bg: #f5f7fa;
+    --ir-light-red: #fd8b8b;
+    --ir-light-yellow: #fffce7;
+    --ir-orange: #ffa00a;
+    --ir-text-purple: #6f00ff;
+    --ir-text-lime: #84DE02;
+    --ir-text-color: #000;
+    --ir-text-light: #dfe2e5;
+
+    --ir-border-radius: 3px;
+    --ir-cell-bg: #fff;
+    --ir-focus-border-width: 2px;
+    --ir-selection-highlight-color: #fffce7;
+    --ir-toast-message-border: none;
+    --ir-header-cell-bg: #fff;
+}
+
+.bg-light{
+    background-color: var(--ir-light-bg) !important;
+}
+
+.bg-white{
+    background-color: var(--ir-white-bg) !important;
+}
+
+.text-purpal{
+    color: var(--ir-text-purple) !important;
+}
+
+.text-lime{
+    color: var(--ir-text-lime) !important;
+}
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+
+#navbar{
+    
+}
